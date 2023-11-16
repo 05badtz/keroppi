@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Keroppi's Shop</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script type="text/javascript" src="js/script_login.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="imagenes.k/keroppi.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+	<!--Font awesome para iconos-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg" style="background-color: rgb(197, 253, 183);">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="inicio.html">
+			<img src="imagenes.k/keroppi.png" width="30" height="24"> Keroppi's Shop
+		  </a>
+  
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barranav" aria-controls="barranav">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+  
+		  <div class="collapse navbar-collapse" id="barranav">
+			<ul class="navbar-nav ms-auto">
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="barradropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Categorías
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Collares</a></li>
+				  <li><a class="dropdown-item" href="#">Pulseras</a></li>
+				  <li><a class="dropdown-item" href="#">Gorros</a></li>
+				  <li><a class="dropdown-item" href="#">Anillos</a></li>
+				  <li><a class="dropdown-item" href="#">Aros</a></li>
+				</ul>
+			  </li>
+			</ul>
+  
+			<div class="contenedor-icon"> 
+			  <a href="login.html" id="login" class="header-actions-link" style="color: black;">
+				<i class="bi bi-person-circle"></i>
+			  </a>     
+			  <a href="#" id="buscar" class="header-actions-link" style="color: black;">
+				<i class="bi bi-search"></i>
+			  </a>
+			  <a href="#" id="login" class="header-actions-link" style="color: black;">
+				<i class="bi bi-cart3"></i>
+			  </a> 
+			</div>
+  
+		  </div>
+  
+		</div>
+	  </nav>
+
+	<!--Inicio de sesión-->
+	<div class="container d-flex justify-content-center align-items-center main-box">
+		<div class="row border rounded-4 p-3 shadow box-area">
+			<div class="col-md-6 right-box">
+				<div class="row align-items-center">
+					<div class="header-text mt-2 mb-3">
+						<h3 class="right-text">Iniciar sesión</h3>
+					</div>
+					<form action="inicio.html" class="login_form" method="GET" name="formu" id="formu">
+						<div class="input-group">
+							<input autocomplete="off" placeholder="Correo electrónico" type="email" id="email" name="email" class="form-control form-control-lg fs-6 required">
+						</div>
+						<div id="error_email"><small>Por favor recuerde escribir su correo electrónico</small></div>
+						<div class="input-group mt-4">
+							<input placeholder="Contraseña" type="password" id="contraseña" name="contraseña" class="form-control form-control-lg fs-6 required">
+						</div>
+						<div id="error_contraseña"><small>Por favor recuerde escribir su contraseña</small></div>
+						<div class="input-group d-flex justify-content-between mt-3">
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="checkeoLog">
+								<label for="checkeoLog" class="form-check-label"><small>Recuérdame</small></label>
+							</div>
+							<hr>
+							<div class="forgot mb-4">
+								<small><a href="#">¿Olvidaste tu contraseña?</a></small>
+							</div>
+							<div class="input-group">
+								<button type="button" class="btn btn-secondary" id="botonInicio" onclick="val();">Iniciar sesión</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-6 d-flex rounded-3 align-content-center align-items-center flex-column left-box p-4">
+				<div class="featured-image">
+					<img src="imagenes/keroppi.png" class="img-fluid mb-3" width="100px">
+					<h3 class="mb-1">¿No estás registrado?</h3>
+					<p>No hay problema, puedes hacerlo aquí</p>
+					<a href="register.html" class="btn btn-secondary mb-2" role="button"
+							id="botonRegistro">Regístrate</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Termino de inicio de sesión-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+
+*{
+    font-family: cursive;
+}
+.main-box{
+    height: 100vh;
+}
+.box-area{
+    width: 720px;
+}
+#botonInicio{
+    margin-left: 75px;
+}
+.right-box{
+    height: 325px;
+    overflow: auto;
+}
+.left-box{
+    width: 310px;
+    margin-left: 25px;
+    background-color: #dae3d16d;
+}
+.img-fluid{
+    margin-left: 86px;
+    margin-bottom: 10px;
+}
+#botonRegistro{
+    margin-left: 55px;
+}
+.btn{
+    background-color: rgb(174, 200, 150);
+    font-size: 15px;
+    width: 10rem;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.form-control{
+    background-color: rgb(242, 244, 240);
+}
+#error_email,#error_contraseña,#error_nombre{
+    margin-top: 5px;
+    background-color: rgb(224, 184, 184);
+    color: rgb(214, 12, 12);
+    border-radius: 5px;
+    border: 1px solid rgb(212, 18, 18);
+    width: 310px;
+    font-size: 15px;
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(87, 247, 87) !important;
+}
+@media only screen and (max-width: 765px){
+    .box-area{
+       margin: 0 10px;
+    }
+    .left-box{
+       height: 125px;
+       width: 410px;
+       overflow: auto;
+    }
+    .right-box{
+       padding: 20px;
+    }
+    #botonInicio{
+        margin-left: 130px;
+        margin-right: 120px;
+    }
+    #error_email,#error_contraseña,#error_nombre{
+        margin-top: 5px;
+        background-color: rgb(224, 184, 184);
+        color: rgb(214, 12, 12);
+        border-radius: 5px;
+        border-color: rgb(212, 18, 18);
+        width: 423px;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(87, 247, 87) !important;
+}
+@media only screen and (max-width: 500px){
+    .box-area{
+       margin: 0 10px;
+       height: 320px;
+       width: 400px;
+       overflow: auto;
+    }
+    .left-box{
+       height: 90px;
+       width: 300px;
+       overflow: auto;
+    }
+    .img-fluid{
+        width:70px;
+    }
+    .right-box{
+       padding: 20px;
+    }
+    #botonInicio{
+        margin-left: 110px;
+        margin-right: 120px;
+    }
+    #error_email,#error_contraseña,#error_nombre{
+        margin-top: 5px;
+        background-color: rgb(224, 184, 184);
+        color: rgb(214, 12, 12);
+        border-radius: 5px;
+        border-color: rgb(212, 18, 18);
+        width: 423px;
+    }
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(87, 247, 87) !important;
+}
+@media only screen and (max-width: 400px){
+    .box-area{
+       margin: 0 10px;
+       height: 320px;
+       width: 400px;
+       overflow: auto;
+    }
+    .left-box{
+       height: 90px;
+       width: 250px;
+       overflow: auto;
+    }
+    .img-fluid{
+        width:70px;
+    }
+    .right-box{
+       padding: 20px;
+    }
+    #botonInicio{
+        margin-left: 90px;
+        margin-right: 120px;
+    }
+    #error_email,#error_contraseña,#error_nombre{
+        margin-top: 5px;
+        background-color: rgb(224, 184, 184);
+        color: rgb(214, 12, 12);
+        border-radius: 5px;
+        border-color: rgb(212, 18, 18);
+        width: 423px;
+    }
+    
+}

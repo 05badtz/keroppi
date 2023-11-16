@@ -1,0 +1,33 @@
+.slide{
+    margin-bottom: 10px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
+.quesomos{
+    text-align: justify;
+    line-height: 2em;
+}
+
+.productos{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(87, 247, 87) !important;
+}
+
+body{
+    font-family: cursive;
+}
+
+.btn {
+    background-color: rgb(197, 253, 183);
+}
+

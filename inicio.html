@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keroppi's Shop</title><link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css.k/css.css">
+    <link rel="shortcut icon" href="imagenes.k/keroppi.png">
+   </head>
+
+  <body style="background-color: rgb(248, 248, 248);">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(197, 253, 183);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="inicio.html">
+          <img src="imagenes.k/keroppi.png" width="30" height="24"> Keroppi's Shop
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#barranav" aria-controls="barranav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="barranav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="barradropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Collares</a></li>
+                <li><a class="dropdown-item" href="#">Pulseras</a></li>
+                <li><a class="dropdown-item" href="#">Gorros</a></li>
+                <li><a class="dropdown-item" href="#">Anillos</a></li>
+                <li><a class="dropdown-item" href="#">Aros</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="contenedor-icon"> 
+            <a href="login.html" id="login" class="header-actions-link" style="color: black;">
+              <i class="bi bi-person-circle"></i>
+            </a>     
+            <a href="#" id="buscar" class="header-actions-link" style="color: black;">
+              <i class="bi bi-search"></i>
+            </a>
+            <a href="#" id="login" class="header-actions-link" style="color: black;">
+              <i class="bi bi-cart3"></i>
+            </a> 
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
+
+    <!--Carousel-->
+      <div id="carouselkero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselkero" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item">
+            <img src="imagenes.k/1.jpg" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="imagenes.k/2.jpg" class="d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="imagenes.k/3.jpg" class="d-block w-100" alt="3">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="imagenes.k/4.jpg" class="d-block w-100" alt="4">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="imagenes.k/5.jpg" class="d-block w-100" alt="5">
+          </div>
+          <div class="carousel-item d-item">
+            <img src="imagenes.k/6.jpg" class="d-block w-100" alt="6">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselkero" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselkero" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Cards categorías-->
+      <section class="quesomos my-5">
+        <h2 class="text-center my-5">¿Quién somos?</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>¡Holaa! nosotros somos Keroppi's Shop y te damos una cordial bienvenida a nuestra tienda virtual.</p>
+              <p>Nuestro principal objetivo es traerte una variedad de productos para que le des un toque más personalizado
+                a tu estilo.
+              </p>
+              <p>¡Sé tú mismo! ¡Sé tu propio estilo!</p>
+            </div>
+            
+            <div class="col-6" >
+              <img src="imagenes.k/kerokien.webp" class="rounded mx-auto d-block" alt="" class="img-fluid">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!--Productos destacados-->
+      <section class="productos my-5">
+        <h2 class="text-center my-5">Productos Destacados</h2>
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/collar_1.jpeg" alt="" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-body">"Military Cross"</p>
+                  <p>$6.990</p>
+                  <a href="detalles.html" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-6">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/collar_2.jpeg" alt=""  class="img-fluid">
+                <div class="card-body">
+                  <p class="card-body">"Heartsteel"</p>
+                  <p>$7.990</p>
+                  <a href="#" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 ">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/collar_3.jpeg" alt="" class="img-fluid">
+                <div class="card-body">
+                  <p class="card-body">"Portal of Death"</p>
+                  <p>$7.990</p>
+                  <a href="#" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 ">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/cinturon_1.jpeg" alt="" class="img-fluid" >
+                <div class="card-body">
+                  <p class="card-body">"Cinturon doble ojal con cadena"</p>
+                  <p>$5.990</p>
+                  <a href="#" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 ">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/cinturon_2.jpeg" alt="">
+                <div class="card-body">
+                  <p class="card-body">"Cinturón Steampunk Y2K"</p>
+                  <p>$8.990</p>
+                  <a href="#" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 ">
+              <div class="card mb-3">
+                <img class="card-img-top" src="imagenes.k/cinturon_3.jfif" alt="">
+                <div class="card-body">
+                  <p class="card-body">"Cinturon Shey Culey"</p>
+                  <p>$6.990</p>
+                  <a href="#" class="btn btn-outline-success">Ver detalles</a>                  
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <!--Footer-->
+      <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+            <hr>
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">Nosotros</h5>
+              <hr class="mb-4">
+              <p>
+                ¡Holaa! nosotros somos Keroppi's Shop y te damos una cordial bienvenida a nuestra tienda virtual.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">¿TE AYUDAMOS?</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-dark">Cuenta</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark">Orden</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark">Producto</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark">Ayuda</a>
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success"></h5>
+
+              <p>
+                <a href="#" class="text-dark"></a>
+              </p>
+              <p>
+                <a href="#" class="text-dark"></a>
+              </p>
+              <p>
+                <a href="#" class="text-dark"></a>
+              </p>
+              <p>
+                <a href="#" class="text-dark"></a>
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contactanos</h5>
+              <hr class="mb-4">
+              <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="text-dark"><i class="fa-regular fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="text-center p-1" >
+          © 2023 Keroppi's Shop. Todos los derechos reservados.
+        </div>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  </body>
+</html>
